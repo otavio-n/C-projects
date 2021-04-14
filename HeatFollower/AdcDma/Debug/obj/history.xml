@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103RB -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\projetoMIKRO -IF:\projetoMIKRO\AdcDma-av2FUNCIONANDO\stm_lib -IF:\projetoMIKRO\AdcDma-av2FUNCIONANDO\cmsis -IF:\projetoMIKRO\AdcDma-av2FUNCIONANDO\stm_lib\inc -IF:\projetoMIKRO\AdcDma-av2FUNCIONANDO\cmsis_boot -IF:\projetoMIKRO\AdcDma-av2FUNCIONANDO -IF:\">
+      <target file="stm32f10x_adc.o" lastModified="15a14880170">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="159dbbb8a10"/>
+      </target>
+      <target file="syscalls.o" lastModified="15a14880940">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="159dbbb5360"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="15a1487f9a0">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="159dc06fa90"/>
+      </target>
+      <target file="timer.o" lastModified="15a14880170">
+         <source file="..\..\..\timer.c" lastModified="15a146e3fb0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="15a14880170">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="159dbbb6ad0"/>
+      </target>
+      <target file="Serial_USART.o" lastModified="15a14880940">
+         <source file="..\..\..\Serial_USART.c" lastModified="159dbde3ce0"/>
+      </target>
+      <target file="main.o" lastModified="15a14880170">
+         <source file="..\..\..\main.c" lastModified="159e03d5140"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="15a14880170">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="159dbbb7a70"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="15a14880940">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="159dbcffc70"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="15a14880170">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="159dbbb6300"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="15a14880170">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="159dbbb6ad0"/>
+      </target>
+      <target file="SERVO.o" lastModified="15a14a9b270">
+         <source file="..\..\..\SERVO.c" lastModified="15a14a9b270"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="15a14880940">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="159dbbb8240"/>
+      </target>
+      <target file="misc.o" lastModified="15a14880940">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="159dc058b60"/>
+      </target>
+   </processor>
+</history>

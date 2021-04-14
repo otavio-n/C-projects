@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=AdcDma.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\AdcDma -TC:\CooCox\CoIDE\configuration\ProgramData\AdcDma/arm-gcc-link.ld -g">
+      <target file="AdcDma.elf" lastModified="15a14a9ba40">
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15a1487f9a0"/>
+         <source file="..\obj\timer.o" lastModified="15a14880170"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15a14880170"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15a14880170"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15a14880170"/>
+         <source file="..\obj\main.o" lastModified="15a14880170"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15a14880170"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15a14880170"/>
+         <source file="..\obj\SERVO.o" lastModified="15a14a9b270"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15a14880940"/>
+         <source file="..\obj\Serial_USART.o" lastModified="15a14880940"/>
+         <source file="..\obj\syscalls.o" lastModified="15a14880940"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="15a14880940"/>
+         <source file="..\obj\misc.o" lastModified="15a14880940"/>
+      </target>
+   </processor>
+</history>
